@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * DTO class for SampleServlet.
  */
-public class sampleDTO implements Serializable {
+public class SampleDTO implements Serializable {
     /**
      * First name of the user.
      */
@@ -24,7 +24,7 @@ public class sampleDTO implements Serializable {
      * @param firstName1 first name of the user
      * @param lastName1 last name of the user
      */
-    public sampleDTO(final String firstName1, final String lastName1) {
+    public SampleDTO(final String firstName1, final String lastName1) {
         this.firstName = firstName1;
         this.lastName = lastName1;
         this.setMessage("Hello");

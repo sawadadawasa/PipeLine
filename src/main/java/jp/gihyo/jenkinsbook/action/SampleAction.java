@@ -3,7 +3,7 @@ package jp.gihyo.jenkinsbook.action;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-import jp.gihyo.jenkinsbook.dto.sampleDTO;
+import jp.gihyo.jenkinsbook.dto.SampleDTO;
 
 /**
  * DTO class for SampleServlet.
@@ -61,7 +61,7 @@ public class SampleAction {
      * @return result jsp file path
      */
     public final String execute(final HttpServletRequest request) {
-        sampleDTO dto = new sampleDTO(firstName, lastName);
+        SampleDTO dto = new SampleDTO(firstName, lastName);
 
         HttpSession session = request.getSession(true);
         session.setAttribute("dto", dto);
