@@ -7,7 +7,6 @@ import java.io.Serializable;
  */
 public class SampleDTO implements Serializable {
 
-aaa
     /**
      * First name of the user.
      */
