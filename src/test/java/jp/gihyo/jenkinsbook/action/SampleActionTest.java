@@ -80,6 +80,7 @@ public class SampleActionTest {
 	public void testExecuteNormal() {
 		SampleAction action = new SampleAction("firstName", "lastName");
 		HttpServletRequest request = createMock(HttpServletRequest.class);
+		
 		HttpSession session = createMock(HttpSession.class);
 
 		expect(request.getSession(true)).andReturn(session);
