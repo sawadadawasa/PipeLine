@@ -46,7 +46,6 @@ public class SampleAction {
         if ((firstName == null) || ("".equals(firstName))) {
             return false;
         }
-        
 
         lastName = request.getParameter("LastName");
         if ((lastName == null) || ("".equals(lastName))) {
