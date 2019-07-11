@@ -21,12 +21,12 @@ public class SampleDTO implements Serializable {
 
     /**
      * Store the user name.
-     * @param firstName first name of the user
-     * @param lastName last name of the user
+     * @param firstName1 first name of the user
+     * @param lastName1 last name of the user
      */
-    public SampleDTO(final String firstName, final String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public SampleDTO(final String firstName1, final String lastName1) {
+        this.firstName = firstName1;
+        this.lastName = lastName1;
         this.setMessage("Hello");
     }
 
